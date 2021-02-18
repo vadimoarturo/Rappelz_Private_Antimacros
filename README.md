@@ -27,5 +27,5 @@ Additionally, there is protection from killing monsters in any dungeon, to limit
 
 # Anti-macros system private rappelz Epic 7.2
 
-Only popup WEB-PAGE, not private_notice becouse epic 7.2 not supported thus function.
+Only popup WEB-PAGE, not private_notice becouse epic 7.2 not supported this function.
 If you kill a certain number of monsters, you are frozen and popgs popup a web page for confirmation, you must enter a captcha.
