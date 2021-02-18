@@ -19,5 +19,7 @@ If you ignore it, then the next time you kill the monster, it will freeze you, b
 
 If you are not able to isBlock = 1, then you are warned about this
 
+If you haven't killed any monsters for 800 seconds, taking into account the time of the last monster you killed, the counter is reset
+
 
 Additionally, there is protection from killing monsters in any dungeon, to limit the level of characters.
