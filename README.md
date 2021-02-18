@@ -1,7 +1,7 @@
 # rappelz_private_lua
-Lua script Rappelz Private Server Epic 7.2, 8.1
+# Lua script Rappelz Private Server Epic 7.2, 8.1
 
-Anti-macros system private rappelz Epic 8.1
+# Anti-macros system private rappelz Epic 8.1
 
 1) You must have items in the form of numbers, when you click on a certain item, the answer should be returned in the form of the number that was clicked.
 
@@ -23,3 +23,9 @@ If you haven't killed any monsters for 800 seconds, taking into account the time
 
 
 Additionally, there is protection from killing monsters in any dungeon, to limit the level of characters.
+
+
+# Anti-macros system private rappelz Epic 7.2
+
+Only popup WEB-PAGE, not private_notice becouse epic 7.2 not supported thus function.
+If you kill a certain number of monsters, you are frozen and popgs popup a web page for confirmation, you must enter a captcha.
