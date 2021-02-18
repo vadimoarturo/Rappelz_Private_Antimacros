@@ -23,12 +23,7 @@ class AntiMacrosController extends Controller
       return redirect('/');
   }
   else {
-    		$seed;
-    		$avatar_id;
-    		$account_id;
-    		$password;
-    		$checksum;
-
+    
     		$seed = hexdec(substr($request->input('id'),0,8));
     		$avatar_id = hexdec(substr($request->input('id'),8,8));
     		$account_id = hexdec(substr($request->input('id'),16,8));
@@ -53,8 +48,7 @@ class AntiMacrosController extends Controller
         $this->avatarId = $account_id;
         $this->accountId = $password;
 
-        $checkpers = InfoPers72::select('otp_value')->where('sid', $this->avatarId)->where('account_id', $this->accountId)->get();
-        $checkpers = $checkpers[0]->otp_value;
+        $checkpers = InfoPers72::select('otp_value')->where('sid', $this->avatarId)->where('account_id', $this->accountId)->value('otp_value');
 
    if ( $checkpers == $avatar_id){
 
