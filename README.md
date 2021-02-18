@@ -1,7 +1,7 @@
 # rappelz_private_lua
-# Lua script Rappelz Private Server Epic 7.2, 8.1
+# Lua script Rappelz Private Server Epic 7.2, 8.1+
 
-# Anti-macros system private rappelz Epic 8.1
+# Anti-macros system private rappelz Epic 8.1+
 
 1) You must have items in the form of numbers, when you click on a certain item, the answer should be returned in the form of the number that was clicked.
 
